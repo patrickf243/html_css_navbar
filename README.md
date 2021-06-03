@@ -1,2 +1,2 @@
 # html_css_navbar
-My first HTML & CSS Menu
+This repository is about my different HTML & CSS Navigation menu designs. 

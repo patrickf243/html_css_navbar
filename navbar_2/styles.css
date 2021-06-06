@@ -1,33 +1,25 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 *{
-    font-family: 'Roboto', sans-serif;   
-}
-body{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,129,214,1) 0%, rgba(96,207,241,1) 100%);
-}
-h1{
-    text-align: center;
-    color: white;
-    letter-spacing: .5px;
-    margin-bottom: 85px;
+    /* background-color:rgb(44, 43, 43); */
+    font-family: 'Fjalla One', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 nav{
-    text-align: center;
+    width: 400px;
+    height: 100vh;
+    background-color: rgb(39, 38, 38);
 }
+
 a{
-    -webkit-box-shadow: -1px 9px 15px -1px rgba(0,0,0,0.43); 
-    box-shadow: -1px 9px 15px -1px rgba(0,0,0,0.43);   
-    height:90px;
-    width: 250px;
-    display: inline-block;
-    font-size: 1.5em;
-    font-weight: 300;
-    text-decoration: none;
     color: white;
-    text-align: center;
-    line-height: 90px;
-    margin-right: 12px;
-    text-transform: uppercase;   
+    text-decoration: none;
+    font-size: 40px;
+    display: block;
+    padding-bottom: 40px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+a:first-child{
+    padding-top: 50px;
 }

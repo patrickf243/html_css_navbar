@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family:'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+nav{
+    background-color: rgb(49, 48, 48);
+    margin: 25px;
+    padding: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 27px;
+
+}
+a:last-child{
+    background-color: rgb(253, 97, 123);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(253, 97, 123);
+}
+a:nth-child(5){
+    background-color: white;
+    padding:10px;
+    color: turquoise;
+    border-radius: 5px;
+    border: 2px solid turquoise;
+}
+.website-section{
+    height: 500px;
+}
+#home{
+    background-color: seagreen;
+}
+
+#templates{
+    background-color: skyblue;
+}
+#pages{
+    background-color: tomato;
+}
+#elements{
+    background-color: yellow;
+}
+#buy-now{
+    background-color: greenyellow;
+}
+#discover{
+    background-color: blue;
+}
